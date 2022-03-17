@@ -30,6 +30,8 @@ header {
     background-size: cover;
     gap: 9cm;
     justify-content: space-around;
+    position:fixed;
+    top: 0;
 }
 
 .heroText-image {
@@ -37,17 +39,31 @@ header {
     margin: 100px;
     gap: 30px;
     border: 1px solid black;
-    background-color: black;
-    opacity: 0.5;
+    background-color: rgba(0,0,0, 0.7);
     border-radius: 16px;
     padding: 30px;
     opacity: 0.5px;
+    height: 100%;
+    padding: 50px;
 }
 .heroText {
     width: 50%;
     flex-wrap: wrap;
+    color: ghostwhite;
 }
 .heroImage {
-    transform: scaleX(-1);
+    transform: scaleX(-1); /*to flip the image*/
+    padding-bottom:0;
+}
+button a {
+    text-decoration: none;
+    color:goldenrod;
+    border-radius: 23px;
+}
+button {
+    padding: 15px;
+    background: lightblue;
+    position: absolute;
+    text-align: center;
 }
 
