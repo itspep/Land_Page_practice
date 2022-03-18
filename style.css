@@ -10,17 +10,23 @@ body {
     box-sizing: border-box;
 }
 
+
+
+
+
 header ul {
     list-style-type: none;
     display: flex;
     gap: 16px;
 }
+
 header li {
     display: inline-block;
     border: 2px solid goldenrod;
     padding: 4px;
     border-radius: 23px;
 }
+
 header a {
     color: ghostwhite;
     text-decoration: none;
@@ -35,9 +41,11 @@ header {
     justify-content: space-around;
     
 }
+
 .heading {
     display: flex;
 }
+
 h3 {
     color: ghostwhite;
     font-size: 16px;
@@ -47,18 +55,20 @@ h3 {
     padding: 8px;
     margin-top: 10px;
 }
+
 .logo {
     border: 2px solid goldenrod;
     border-radius: 50%;
     margin-top: 4px;
 }
+
 .sword {
 
 }
 
 .heroText-image {
     display: flex;
-    margin: 50px 100px 0px 100px;
+    margin: 70px 100px 0px 100px;
     gap: 30px;
     border: 1px solid black;
     background-color: rgba(0,0,0, 0.7);
@@ -67,15 +77,18 @@ h3 {
     height: 100%;
     padding: 50px;
 }
+
 .heroText {
     width: 50%;
     flex-wrap: wrap;
     color: ghostwhite;
 }
+
 .heroImage {
     transform: scaleX(-1); /*to flip the image*/
     padding-bottom:0;
 }
+
 button a {
     text-decoration: none;
     color:goldenrod;
@@ -83,6 +96,7 @@ button a {
     font-weight:bolder;
     font-size:23px;
 }
+
 button {
     padding: 15px;
     background: lightblue;
@@ -92,11 +106,13 @@ button {
     margin-top: 50px;
     border-radius: 30px;
 }
+
 figcaption a {
     color:white;
     text-decoration: none;
     font-size: 16px;
 }
+
 figcaption {
     color:white;
     text-decoration: none;
@@ -110,15 +126,62 @@ figcaption {
 
 
 
-
-
-
 .layer1 {
+    background-color: goldenrod;
+    margin-top: 100px;
+    padding: 100px;
+}
+
+.container {
     display: flex;
-    flex-wrap: wrap;
+
     justify-content: center;
 }
+
 .characters {
-    margin:16px;
-    gap: 16px;
+
+}
+
+.char_head {
+    text-align: center;
+    color: ghostwhite;
+}
+
+
+
+
+
+
+
+.layer2 {
+    padding: 150px;
+    display: flex;
+    gap: 23x;
+}
+
+.layer2 p {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+span {
+    position: absolute;
+    margin-left: 8cm;
+}
+
+
+
+
+.layer3 {
+    display: flex;
+    justify-content: center;
+    background:goldenrod;
+    padding: 150px;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    font-size: 20px;
 }
