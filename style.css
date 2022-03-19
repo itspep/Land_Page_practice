@@ -22,14 +22,20 @@ header ul {
 
 header li {
     display: inline-block;
-    border: 2px solid goldenrod;
-    padding: 4px;
-    border-radius: 23px;
+    margin-top: 10px;
+    margin-right: 4px;
+   
 }
 
 header a {
-    color: ghostwhite;
+    color: white;
+    text-shadow: 2px 2px 4px black;
     text-decoration: none;
+    border: 2px solid goldenrod;
+    padding: 6px;
+    border-radius: 23px;
+    background-image: linear-gradient(to right, rgb(241, 74, 23), goldenrod);
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.7);
 }
 
 header {
@@ -47,23 +53,39 @@ header {
 }
 
 h3 {
-    color: ghostwhite;
-    font-size: 16px;
-    font-family: Elephant,"Times New Roman", sans-serif;
+    color: white;
+    font-size: 18px;
+    font-family: "Berkshire Swash";
+    text-shadow: 2px 2px 4px black;
     border: 2px solid goldenrod;
     border-radius: 23px;
     padding: 8px;
     margin-top: 10px;
+    background-image: linear-gradient(to bottom right, rgb(241, 74, 23), goldenrod);
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.7);
 }
 
 .logo {
     border: 2px solid goldenrod;
+    background: linear-gradient(to right, rgb(241, 74, 23), goldenrod);
     border-radius: 50%;
-    margin-top: 4px;
+    margin-top: 7px;
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.7);
 }
 
 .sword {
-
+    margin: 0px;
+}
+.conicals {
+    display: flex;
+}
+.conical1, .conical2 {
+    height: 30px;
+    width: 30px;
+    margin: 20px 0px 0px 0px;
+    background-image: repeating-conic-gradient(rgb(241, 74, 23) 10%, goldenrod 20%);
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.7);
 }
 
 .heroText-image {
@@ -78,10 +100,18 @@ h3 {
     padding: 50px;
 }
 
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+    font-family: "Caesar Dressing", Courier, monospace;
+}
 .heroText {
     width: 50%;
     flex-wrap: wrap;
     color: ghostwhite;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 1.5;
 }
 
 .heroImage {
@@ -89,22 +119,21 @@ h3 {
     padding-bottom:0;
 }
 
-button a {
+.button {
     text-decoration: none;
-    color:goldenrod;
+    color: white;
+    text-shadow: 2px 2px 4px black;
     border-radius: 23px;
     font-weight:bolder;
     font-size:23px;
-}
-
-button {
-    padding: 15px;
-    background: lightblue;
+    padding: 13px;
+    background: linear-gradient(to bottom right, rgb(241, 74, 23), goldenrod);
+    border-radius: 30px;
     position: absolute;
     text-align: center;
-    margin-left: 170px;
-    margin-top: 50px;
-    border-radius: 30px;
+    margin-left: 14%;
+    margin-top: 16px;
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.7);
 }
 
 figcaption a {
@@ -129,7 +158,7 @@ figcaption {
 .layer1 {
     background-color: goldenrod;
     margin-top: 100px;
-    padding: 100px;
+    padding-top: 0px;
 }
 
 .container {
@@ -142,10 +171,14 @@ figcaption {
 
 }
 
-.char_head {
+h2 {
     text-align: center;
     color: ghostwhite;
+    font-size: 2vw;
+    font-family: "Berkshire Swash";
+    padding-top: 4vw;
 }
+
 
 
 
@@ -161,13 +194,14 @@ figcaption {
 
 .layer2 p {
     color: white;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
+    margin: 30px;
 }
 span {
     position: absolute;
-    margin-left: 8cm;
+    margin-left: 5cm;
 }
 
 
